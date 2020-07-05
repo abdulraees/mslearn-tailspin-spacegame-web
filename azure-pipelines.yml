@@ -51,5 +51,3 @@ steps:
     command: test
     projects: '**/*.sln'
     arguments: '--configuration Debug'
-
-
