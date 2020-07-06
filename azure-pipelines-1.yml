@@ -22,7 +22,9 @@ stages:
     displayName: 'Deploy Development'
     pool:
       vmImage: 'windows-latest'
+
     environment: 'Development'
+    
     strategy:
       runOnce:
         deploy:
